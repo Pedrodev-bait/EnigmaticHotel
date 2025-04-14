@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eaeff4;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-image {
+    flex: 1;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form {
+    flex: 1;
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.login-form h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #1B3B56;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #1B3B56;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-form button {
+    background-color: #1B3B56;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #8B634A;
+}
+.btn-reservar {
+    padding: 12px 25px;
+    background-color: #1B3B56;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-reservar:hover {
+    background-color: rgb(139, 99, 74); /* tom marrom suave */
+    transform: scale(1.05);
+}
+.servicos {
+    padding: 80px 60px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    color: #1B3B56;
+    margin-bottom: 40px;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servico {
+    flex: 1 1 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.servico img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.servico h3 {
+    font-size: 20px;
+    color: #1B3B56;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.servico:hover {
+    transform: translateY(-5px);
+}
+
