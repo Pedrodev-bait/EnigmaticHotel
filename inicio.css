@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    background-color: #0B2A4A;
+    background-color: rgb(35, 58, 132);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px ;
 }
 
 .logo {
@@ -22,7 +22,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 430px;
     margin: 0;
     padding: 0;
 }
@@ -38,24 +38,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Banner */
-.main-banner {
+.menu-banner {
     background-color: #cce1f2;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px;
     flex-wrap: wrap;
+    
 }
 
 .banner-texto {
     flex: 1;
     max-width: 500px;
-    margin-right: 300px;
+    margin-right: 500px;
 }
 
 .banner-texto h1 {
-    font-size: 28px;
+    font-size: 35px;
     margin-bottom: 20px;
     color: #1B3B56;
 }
@@ -63,15 +63,15 @@ nav a:hover {
 
 .banner-texto p {
     font-size: 16px;
-    color: #333;
-    line-height: 1.6;
+    color: rgb black;
+
 }
 
 .botao {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 30px;
-    background-color: #1B3B56;
+    background-color: rgb(35, 58, 132);
     color: white;
     font-weight: bold;
     border: none;
@@ -81,16 +81,16 @@ nav a:hover {
 }
 
 .botao:hover {
-    background-color: #395875;
+    background-color: rgb (5, 18, 60);
 }
 
-.banner-img img {
+.banner img {
     width: 100%;
     max-width: 400px;
     border-radius: 5px;
 }
 
-/* Quem Somos */
+
 .quem-somos {
     background-color: white;
     display: flex;
@@ -107,15 +107,15 @@ nav a:hover {
 }
 
 .quem-texto h2 {
-    background-color: #1B3B56;
+    background-color: rgb(25, 44, 106);
     color: white;
-    padding: 10px 20px;
-    font-size: 24px;
-    margin-bottom: 20px;
-    display: inline;
+    padding: 10px;
+    font-size: 40px;
+    display:inline;
+    border-radius: 5px;
 }
 
-.quem-texto p {
+.quem-texto  {
     font-size: 20px;
     color: #333;
     line-height: 1.6;
@@ -125,12 +125,11 @@ nav a:hover {
     width: 100%;
     max-width: 700px;
     border-radius: 20px;
-    margin-right: 80px;
 }
 
-/* Rodapé */
+
 footer {
-    background-color: #0B2A4A;
+    background-color: rgb(5, 18, 60);
     color: white;
     padding: 40px 60px;
 }

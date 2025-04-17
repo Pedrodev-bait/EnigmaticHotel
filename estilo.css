@@ -61,7 +61,7 @@ body, html {
     border: 1px solid #ccc;
     margin-bottom: 20px;
     font-size: 14px;
-    outline: none;
+    outline: none
 }
 
 .login-form button {
@@ -73,7 +73,6 @@ body, html {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .login-form button:hover {
@@ -93,7 +92,7 @@ body, html {
 }
 
 .btn-reservar:hover {
-    background-color: rgb(139, 99, 74); /* tom marrom suave */
+    background-color: rgb(139, 99, 74); 
     transform: scale(1.05);
 }
 .servicos {
